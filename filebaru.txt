@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-sasas
-=======
-file baru nih
->>>>>>> solih
