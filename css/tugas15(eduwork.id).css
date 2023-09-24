@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, rgb(246 252 255), rgb(255 255 255));
+    font-family: 'Poppins';
+    color: rgb(64 64 64);
+}
+
+#home {
+    min-height: 100vh;
+    background: linear-gradient(96.17deg, #F6FCFF 10.09%, rgba(246, 252, 255, .825694) 21.39%, rgba(246, 252, 255, .537489) 47.55%, rgba(11, 59, 83, 0) 66.91%), url('../gambar/bg-edu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #3f4858;
+    font-weight: 600;
+}
+
+.navbar select {
+    color: #3f4858;
+    border-style: none;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 50px;
+    display: flex;
+}
+
+.content .judul h1 {
+    font-weight: 700;
+    width: 70%;
+    font-size: 35px;
+}
+
+.content .desc {
+    display: flex;
+}
+
+.content .icon-side {
+    padding-top: 45px;
+}
+
+.content .icon-side .circle {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    background: #187CFF;
+}
+
+.content .icon-side p {
+    color: #187CFF;
+    text-align: center;
+    rotate: 90deg;
+    padding-top: 4px;
+    padding-left: -1080px;
+    font-size: 58px;
+}
+
+
+.content .info {
+    padding-top: 20px;
+}
+
+.content .info h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+    width: 70%;
+    font-size: 16px;
+}
+
+.content .info p {
+    padding-left: 10px;
+    font-weight: 400;
+    width: 80%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.content .btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .btn .btn-primary {
+    margin-left: -10px;
+    width: 200px;
+    height: 50px;
+}
+
+.content .btn .btn-danger {
+    width: 58px;
+    height: 35px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+
+}
+
+.content .btn .btn-warning {
+    width: 200px;
+    height: 50px;
+}
+
+.content .studen {
+    margin-top: 25px;
+}
+
+.content .studen p {
+    font-weight: 700;
+}
+
+.content .studen p span {
+    font-weight: 400;
+}
+
+.content .splash {
+    justify-content: center;
+    align-items: center;
+}
+
+.content .splash img {
+    background-size: cover;
+    min-height: 80vh;
+    padding-left: 80px;
+}
+
+.content .box {
+    position: relative;
+    padding: 3%;
+    left: 160px;
+    bottom: 140px;
+    width: 390px;
+    height: 130px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(64 64 64);
+    background: #ffffff;
+    margin-bottom: -200px;
+}
